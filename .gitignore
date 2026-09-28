@@ -1,4 +1,26 @@
+# .NET / C# Build Artifacts
 bin/
 obj/
+out/
+
+# IDE / Editor Files
 .vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.user
+*.userosscache
+*.sln.docstates
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment & Private Keys
+*.env
+*.pem
+*.key
+*.pub
